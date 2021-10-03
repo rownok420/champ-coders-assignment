@@ -1,0 +1,65 @@
+[
+    {
+       "id":1,
+       "name":"Web development",
+       "duration":"3 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-1.jpg?raw=true"
+    },
+    {
+       "id":2,
+       "name":"Web design",
+       "duration":"5 months",
+       "certification":"No",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-2.jpg?raw=true"
+    },
+    {
+       "id":3,
+       "name":"Graphics design",
+       "duration":"6 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-3.jpg?raw=true"
+    },
+    {
+       "id":4,
+       "name":"Digital marketing",
+       "duration":"3 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-4.jpg?raw=true"
+    },
+    {
+       "id":5,
+       "name":"Learn 3D modelling",
+       "duration":"6 months",
+       "certification":"No",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-5.jpg?raw=true"
+    },
+    {
+       "id":6,
+       "name":"Machine learning",
+       "duration":"2 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-6.jpg?raw=true"
+    },
+    {
+       "id":7,
+       "name":"Microsoft office",
+       "duration":"4 months",
+       "certification":"No",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-7.jpg?raw=true"
+    },
+    {
+       "id":8,
+       "name":"Artificial intelligence",
+       "duration":"3 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-8.jpg?raw=true"
+    },
+    {
+       "id":9,
+       "name":"Basic linux",
+       "duration":"6 months",
+       "certification":"Yes",
+       "img":"https://github.com/rownok420/assign-09-img/blob/main/img-9.jpg?raw=true"
+    }
+    ]

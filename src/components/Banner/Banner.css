@@ -1,0 +1,32 @@
+.bg-img{
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../../images/bg-image.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.home-button{
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background-color: #FF3614;
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
