@@ -2,8 +2,9 @@
     {
        "id":1,
        "name":"Web development",
-       "duration":"3 months",
+       "duration":"6 months",
        "certification":"Yes",
+       "lessons":"15",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-1.jpg?raw=true"
     },
     {
@@ -11,6 +12,7 @@
        "name":"Web design",
        "duration":"5 months",
        "certification":"No",
+       "lessons":"5",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-2.jpg?raw=true"
     },
     {
@@ -18,6 +20,7 @@
        "name":"Graphics design",
        "duration":"6 months",
        "certification":"Yes",
+       "lessons":"10",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-3.jpg?raw=true"
     },
     {
@@ -25,6 +28,7 @@
        "name":"Digital marketing",
        "duration":"3 months",
        "certification":"Yes",
+       "lessons":"6",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-4.jpg?raw=true"
     },
     {
@@ -32,6 +36,7 @@
        "name":"Learn 3D modelling",
        "duration":"6 months",
        "certification":"No",
+       "lessons":"8",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-5.jpg?raw=true"
     },
     {
@@ -39,6 +44,7 @@
        "name":"Machine learning",
        "duration":"2 months",
        "certification":"Yes",
+       "lessons":"12",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-6.jpg?raw=true"
     },
     {
@@ -46,6 +52,7 @@
        "name":"Microsoft office",
        "duration":"4 months",
        "certification":"No",
+       "lessons":"18",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-7.jpg?raw=true"
     },
     {
@@ -53,6 +60,7 @@
        "name":"Artificial intelligence",
        "duration":"3 months",
        "certification":"Yes",
+       "lessons":"15",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-8.jpg?raw=true"
     },
     {
@@ -60,6 +68,7 @@
        "name":"Basic linux",
        "duration":"6 months",
        "certification":"Yes",
+       "lessons":"10",
        "img":"https://github.com/rownok420/assign-09-img/blob/main/img-9.jpg?raw=true"
     }
     ]

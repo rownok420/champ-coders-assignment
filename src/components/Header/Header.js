@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <Navbar className='nav-style' variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#">
+                <Navbar.Brand>
                     <NavLink className="fs-2" to="/home">
                         Champ Coder's
                     </NavLink>

@@ -11,70 +11,70 @@ const Activity = () => {
             <div>
                 <h1 className='my-5 activity-heading'>Top Category</h1>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-                <div class="col">
-                    <div class="card h-auto card-1 card-hover">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div className="col">
+                    <div className="card h-auto card-1 card-hover">
                         <img
                             src={img1}
                             width="80px"
                             height="83px"
-                            class="m-auto mt-5 mb-4"
+                            className="m-auto mt-5 mb-4"
                             alt="..."
                         />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">1200+ Topics</h5>
-                            <p class="card-text text-center">Learn Anythings</p>
+                        <div className="card-body">
+                            <h5 className="card-title text-center">Design</h5>
+                            <p className="card-text text-center">2 Courses</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-auto card-2 card-hover">
+                <div className="col">
+                    <div className="card h-auto card-2 card-hover">
                         <img
                             src={img2}
                             width="80px"
                             height="83px"
-                            class="m-auto mt-5 mb-4"
+                            className="m-auto mt-5 mb-4"
                             alt="..."
                         />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">
-                                5100+ Students
+                        <div className="card-body">
+                            <h5 className="card-title text-center">
+                                Development
                             </h5>
-                            <p class="card-text text-center">Learn Development</p>
+                            <p className="card-text text-center">3 Courses</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-auto card-3 card-hover">
+                <div className="col">
+                    <div className="card h-auto card-3 card-hover">
                         <img
                             src={img3}
                             width="80px"
                             height="83px"
-                            class="m-auto mt-5 mb-4"
+                            className="m-auto mt-5 mb-4"
                             alt="..."
                         />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">
-                                5K+ Test Token
+                        <div className="card-body">
+                            <h5 className="card-title text-center">
+                                Javascript
                             </h5>
-                            <p class="card-text text-center">Learn Anythings</p>
+                            <p className="card-text text-center">1 Courses</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-auto card-4 card-hover">
+                <div className="col">
+                    <div className="card h-auto card-4 card-hover">
                         <img
                             src={img4}
                             width="80px"
                             height="83px"
-                            class="m-auto mt-5 mb-4"
+                            className="m-auto mt-5 mb-4"
                             alt="..."
                         />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">
-                                0012+ Assignments
+                        <div className="card-body">
+                            <h5 className="card-title text-center">
+                                Finance
                             </h5>
-                            <p class="card-text text-center">Learn Everythings</p>
+                            <p className="card-text text-center">1 Courses</p>
                         </div>
                     </div>
                 </div>
