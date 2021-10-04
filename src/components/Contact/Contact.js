@@ -76,7 +76,7 @@ const Contact = () => {
                     <div>
                         <h4 className="my-5 contact-heading pt-5">Get In Touch</h4>
                     </div>
-                    <form action="/ad" className="w-50 m-auto">
+                    <form className="w-50 m-auto">
                         <div className="mb-3">
                             <label className="mb-2">Email address</label>
                             <input
@@ -108,8 +108,8 @@ const Contact = () => {
                             ></textarea>
                         </div>
                         <div className="mb-3 pb-5">
-                            <button className="home-button mx-2">Submit</button>
-                            <button className="home-button mx-2">Reset</button>
+                            <button type='submit' onClick={(e) => e.preventDefault()} className="home-button mx-2">Submit</button>
+                            <button type='reset' onClick={(e) => e.preventDefault()} className="home-button mx-2">Reset</button>
                         </div>
                     </form>
                 </div>
