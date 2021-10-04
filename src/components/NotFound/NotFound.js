@@ -10,7 +10,7 @@ const NotFound = () => {
                 Something went wrong,<span className='text'> Page not found!</span>
             </h1>
             <div>
-                <img src={img} className='w-50' alt="" />
+                <img src={img} className='w-50 p-5' alt="" />
             </div>
             <Link to="/home">
                 <button className="home-button">Go to Home</button>

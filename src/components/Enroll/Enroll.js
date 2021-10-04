@@ -6,7 +6,7 @@ const Enroll = () => {
         <div>
             <h1 className='my-5 header'>No Courses Enrolled</h1>
             <div>
-                <img src={img} className='w-25' alt="" />
+                <img src={img} className='w-50 p-5' alt="" />
             </div>
         </div>
     );

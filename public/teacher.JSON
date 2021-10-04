@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Bella Gilchriest",
+        "designation": "React Developer",
+        "salary": 1149,
+        "email": "bgilchriest0@gr.com",
+        "phone": "679-500-0997",
+        "country": "China",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Denise Crichley",
+        "designation": "Web Developer",
+        "salary": 1256,
+        "email": "dcrichley1@ep.com",
+        "phone": "941-414-8043",
+        "country": "Poland",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/8.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Vachel Riditch",
+        "designation": "Web Designer",
+        "salary": 1161,
+        "email": "vriditch2@big.jp",
+        "phone": "982-464-6478",
+        "country": "Russia",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/11.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Carmela Managh",
+        "designation": "Graphics Designer",
+        "salary": 1792,
+        "email": "cmanagh3@sal.com",
+        "phone": "846-679-6199",
+        "country": "Japan",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/10.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Lavinie Mival",
+        "designation": "Product Designer",
+        "salary": 1620,
+        "email": "lmival4@stum.com",
+        "phone": "232-828-4070",
+        "country": "Germany",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/12.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Beitris Dumbare",
+        "designation": "Media Manager",
+        "salary": 1771,
+        "email": "bdumbare5@ps.edu",
+        "phone": "230-372-7251",
+        "country": "Philippines",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/9.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Evita Bukowski",
+        "designation": "Software Engineer",
+        "salary": 700,
+        "email": "ebukowski6@h.gov",
+        "phone": "179-720-3590",
+        "country": "Philippines",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/1.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Wylie Bianco",
+        "designation": "Web Developer",
+        "salary": 1191,
+        "email": "wbianco7@uni.org",
+        "phone": "229-495-9608",
+        "country": "Paraguay",
+        "images": "https://raw.githubusercontent.com/rownok420/images-src/main/15.jpg"
+      } 
+]
