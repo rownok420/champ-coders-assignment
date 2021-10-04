@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar className="nav-style" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand>
-                    <NavLink className="fs-2 header" to="/home">
+                    <NavLink className="fs-2 header" to="/">
                         Champ Coder's
                     </NavLink>
                 </Navbar.Brand>
