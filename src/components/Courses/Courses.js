@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import Course from "../Course/Course";
 
 const Courses = () => {
+
+    // Load data from json file 
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {

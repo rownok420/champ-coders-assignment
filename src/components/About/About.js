@@ -5,6 +5,7 @@ import AboutInfo from "../AboutInfo/AboutInfo";
 
 
 const About = () => {
+    // load data from json file 
     const [details, setDetails] = useState([]);
 
     useEffect(() => {

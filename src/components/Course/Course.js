@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import './Course.css'
 
 const Course = (props) => {
     const { name, img, duration, certification, lessons, fee } = props.course;
@@ -24,6 +26,11 @@ const Course = (props) => {
                         <span className="fw-bold">Course Fee: </span> {fee}{" "}
                     </h6>
                 </Card.Body>
+                <Card.Footer>
+                    <Link to='/enroll'>
+                        <button className="btn btn-danger btn-color px-4 py-2">Purchase</button>
+                    </Link>
+                </Card.Footer>
             </Card>
         </Col>
     );

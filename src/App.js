@@ -14,32 +14,37 @@ function App() {
     return (
         <div className="App">
             <Router>
+                {/* header section  */}
                 <Header />
 
+                {/* all components  */}
                 <Switch>
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/home">
+                    <Route exact path="/home">
                         <Home />
                     </Route>
-                    <Route path="/services">
+                    <Route exact path="/services">
                         <Services />
                     </Route>
-                    <Route path="/about">
+                    <Route exact path="/about">
                         <About />
                     </Route>
-                    <Route path="/contact">
+                    <Route exact path="/contact">
                         <Contact />
                     </Route>
-                    <Route path="/enroll">
+                    <Route exact path="/enroll">
                         <Enroll />
                     </Route>
-                    <Route path='*'>
+
+                    {/* Not found component.if it is bad link,then the component show on the UI */}
+                    <Route exact path="*">
                         <NotFound />
                     </Route>
                 </Switch>
 
+                {/* footer section  */}
                 <Footer />
             </Router>
         </div>
