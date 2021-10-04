@@ -74,26 +74,28 @@ const Contact = () => {
             <div>
                 <div className="card-style my-5">
                     <div>
-                        <h4 className="my-5 contact-heading pt-5">Get In Touch</h4>
+                        <h4 className="my-5 contact-heading pt-5">
+                            Get In Touch
+                        </h4>
                     </div>
                     <form className="w-50 m-auto">
+                        <div className="mb-3">
+                            <label className="mb-2">Name</label>
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="Write your name"
+                                required
+                            />
+                        </div>
                         <div className="mb-3">
                             <label className="mb-2">Email address</label>
                             <input
                                 type="email"
                                 className="form-control"
-                                id="exampleFormControlInput1"
+                                id="exampleFormControlInput2"
                                 placeholder="name@example.com"
-                                required
-                            />
-                        </div>
-                        <div className="mb-3">
-                            <label className="mb-2">Password</label>
-                            <input
-                                type="password"
-                                className="form-control"
-                                id="exampleFormControlInput1"
-                                placeholder="Enter your password"
                                 required
                             />
                         </div>
@@ -102,14 +104,26 @@ const Contact = () => {
                             <textarea
                                 style={{ resize: "none" }}
                                 className="form-control"
-                                id="exampleFormControlTextarea1"
+                                id="exampleFormControlTextarea3"
                                 rows="5"
                                 placeholder="Write your feedback"
                             ></textarea>
                         </div>
                         <div className="mb-3 pb-5">
-                            <button type='submit' onClick={(e) => e.preventDefault()} className="home-button mx-2">Submit</button>
-                            <button type='reset' onClick={(e) => e.preventDefault()} className="home-button mx-2">Reset</button>
+                            <button
+                                type="submit"
+                                onClick={(e) => e.preventDefault()}
+                                className="home-button mx-2"
+                            >
+                                Submit
+                            </button>
+                            <button
+                                type="reset"
+                                onClick={(e) => e.preventDefault()}
+                                className="home-button mx-2"
+                            >
+                                Reset
+                            </button>
                         </div>
                     </form>
                 </div>

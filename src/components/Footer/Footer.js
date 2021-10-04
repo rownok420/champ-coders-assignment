@@ -48,8 +48,8 @@ const Footer = () => {
                         </NavLink>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
-                        <h4>Newsletter</h4>
-                        <p>Subscribe our newsletter to get our latest update & news</p>
+                        <h4>Follow us</h4>
+                        <p>Subscribe our Youtube channel to get our latest update & news</p>
                         <div className='d-flex justify-content-around'>
                             <a href="https://www.facebook.com/"><i className="fab fa-2x fa-facebook-square text-white"></i></a>
                             <a href="https://www.linkedin.com/signup"><i className="fab fa-2x fa-linkedin text-white"></i></a>
