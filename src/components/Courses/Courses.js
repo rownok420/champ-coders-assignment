@@ -15,7 +15,7 @@ const Courses = () => {
             <Row xs={1} md={2} lg={4} className="g-4">
                 {
                     <Col>
-                        <Card className='h-100'>
+                        <Card className='h-100 card-style'>
                             <Card.Img variant="top" src={img1} />
                             <Card.Body>
                                 <Card.Title>Web development</Card.Title>
@@ -28,7 +28,7 @@ const Courses = () => {
                 }
                 {
                     <Col>
-                        <Card className='h-100'>
+                        <Card className='h-100 card-style'>
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Web design</Card.Title>
@@ -41,7 +41,7 @@ const Courses = () => {
                 }
                 {
                     <Col>
-                        <Card className='h-100'>
+                        <Card className='h-100 card-style'>
                             <Card.Img variant="top" src={img3} />
                             <Card.Body>
                                 <Card.Title>Graphics design</Card.Title>
@@ -54,7 +54,7 @@ const Courses = () => {
                 }
                 {
                     <Col>
-                        <Card className='h-100'>
+                        <Card className='h-100 card-style'>
                             <Card.Img variant="top" src={img4} />
                             <Card.Body>
                                 <Card.Title>Digital marketing</Card.Title>
