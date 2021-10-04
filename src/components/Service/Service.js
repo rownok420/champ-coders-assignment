@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Service = (props) => {
-    const {name, img, duration, certification, lessons} = props.course
+    const {name, img, duration, certification, lessons, fee} = props.course
     return (
         <Col>
             <Card className='h-100 card-style'>
@@ -18,6 +18,9 @@ const Service = (props) => {
                     <p>
                         <span className="fw-bold">Lessons: </span> {lessons}{" "}
                     </p>
+                    <h6>
+                        <span className="fw-bold">Course Fee: </span> {fee}{" "}
+                    </h6>
                 </Card.Body>
             </Card>
         </Col>

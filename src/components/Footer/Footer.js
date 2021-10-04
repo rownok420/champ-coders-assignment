@@ -1,10 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+    const activeStyle = {
+        fontWeight: "bold",
+        color: "#FF3614",
+        textDecoration: "underline",
+    };
     return (
         <div className="bg-dark text-white">
             <div className="container">
-                <div className="row py-5">
+                <div className="row pt-4 pb-2">
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h2>Champ Coder's</h2>
                         <p>
@@ -15,7 +21,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
-                        <h4>Courses</h4>
+                        <h4>Top Category</h4>
                         <span>Graphic Design</span>
                         <br />
                         <span>Web Design</span>
@@ -27,33 +33,36 @@ const Footer = () => {
                         <span>Engineering</span>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
-                        <h4>Terms</h4>
-                        <span>Graphic Design</span>
-                        <br />
-                        <span>Web Design</span>
-                        <br />
-                        <span>Business</span>
-                        <br />
-                        <span>Marketing</span>
-                        <br />
-                        <span>Engineering</span>
+                        <h4>Quic Links</h4>
+                        <NavLink className='text-white text-decoration-none' activeStyle={activeStyle} to="/home">
+                            Home
+                        </NavLink><br/>
+                        <NavLink className='text-white text-decoration-none' activeStyle={activeStyle} to="/services">
+                            Services
+                        </NavLink><br/>
+                        <NavLink className='text-white text-decoration-none' activeStyle={activeStyle} to="/about">
+                            About us
+                        </NavLink><br/>
+                        <NavLink className='text-white text-decoration-none' activeStyle={activeStyle} to="/contact">
+                            Contact us
+                        </NavLink>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <h4>Newsletter</h4>
                         <p>Subscribe our newsletter to get our latest update & news</p>
-                        <div className='d-flex justify-content-between'>
-                            <a href="/aad"><i className="fab fa-2x fa-facebook-square"></i></a>
-                            <a href="/aa"><i className="fab fa-2x fa-linkedin"></i></a>
-                            <a href="/"><i className="fab fa-2x fa-twitter-square"></i></a>
-                            <a href="/"><i className="fab fa-2x fa-youtube"></i></a>
+                        <div className='d-flex justify-content-around'>
+                            <a href="https://www.facebook.com/"><i className="fab fa-2x fa-facebook-square text-white"></i></a>
+                            <a href="https://www.linkedin.com/signup"><i className="fab fa-2x fa-linkedin text-white"></i></a>
+                            <a href="https://twitter.com/?lang=en"><i className="fab fa-2x fa-twitter-square text-white"></i></a>
+                            <a href="https://www.youtube.com/"><i className="fab fa-2x fa-youtube text-white"></i></a>
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div className="container pb-3">
-                    <p className="text-center ">
-                        Copyright &copy; 2021 <span>Rownok Jahan</span>
-                    </p>
+                    <h5 className="text-center ">
+                        Copyright &copy; 2021 All rights reserved | This Site Developed by <span className='header'> Md. Rownok Jahan</span>
+                    </h5>
                 </div>
             </div>
         </div>

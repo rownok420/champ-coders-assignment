@@ -24,7 +24,7 @@ const Courses = () => {
             </Row>
             <div>
                 <Link to="/services">
-                        <button className="home-button mt-5">All Courses</button>
+                        <button className="home-button mt-2 mb-4">All Courses</button>
                 </Link>
             </div>
         </div>
