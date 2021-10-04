@@ -10,7 +10,7 @@ const Header = () => {
         textDecoration: "underline",
     };
     return (
-        <Navbar className='nav-style' variant="dark" expand="lg">
+        <Navbar className="nav-style" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand>
                     <NavLink className="fs-2 header" to="/home">
@@ -18,7 +18,10 @@ const Header = () => {
                     </NavLink>
                 </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="navbarScroll" className='bg-dark' />
+                <Navbar.Toggle
+                    aria-controls="navbarScroll"
+                    className="bg-dark"
+                />
 
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
@@ -35,6 +38,9 @@ const Header = () => {
                             Contact us
                         </NavLink>
                     </Nav>
+                    <NavLink activeStyle={activeStyle} to="/enroll">
+                        <button className="home-button rounded-pill pb-2 mt-0">Enroll now</button>
+                    </NavLink>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
