@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div className="container my-5">
             <div>
-                <h1 className="my-4 activity-heading">Our Team</h1>
+                <h1 className="my-4 activity-heading">Expert Teachers </h1>
                 <p className='mb-5'>
                     Moment in the life of any aspiring astronomer of that it is
                     time to buy that <br /> firsttelescope. It’s exciting to
