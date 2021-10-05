@@ -7,7 +7,7 @@ const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
         color: "#FF3614",
-        borderBottom: '2px solid red'
+        textDecoration: "underline"
     };
     return (
         <Navbar className="nav-style" variant="dark" expand="lg">
