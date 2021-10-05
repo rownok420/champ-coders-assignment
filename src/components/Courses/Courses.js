@@ -17,7 +17,7 @@ const Courses = () => {
     return (
         <div className="container my-5">
             <div>
-                <h1 className="my-5 activity-heading">Our Services</h1>
+                <h1 className="my-5 activity-heading">Our Latest Courses</h1>
             </div>
             <Row xs={1} md={2} lg={4} className="g-4 my-5">
                 {

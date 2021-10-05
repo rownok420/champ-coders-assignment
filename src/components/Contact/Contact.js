@@ -79,8 +79,8 @@ const Contact = () => {
                         </h4>
                     </div>
                     <form className="w-50 m-auto">
-                        <div className="mb-3">
-                            <label className="mb-2">Name</label>
+                        <div className="mb-3  text-start">
+                            <label className="mb-2 fw-bold ms-2">Name:</label>
                             <input
                                 type="text"
                                 className="form-control"
@@ -89,8 +89,8 @@ const Contact = () => {
                                 required
                             />
                         </div>
-                        <div className="mb-3">
-                            <label className="mb-2">Email address</label>
+                        <div className="mb-3 text-start">
+                            <label className="mb-2 fw-bold ms-2">Email address:</label>
                             <input
                                 type="email"
                                 className="form-control"
@@ -99,8 +99,8 @@ const Contact = () => {
                                 required
                             />
                         </div>
-                        <div className="mb-3">
-                            <label className="mb-2">Feedback</label>
+                        <div className="mb-3 text-start">
+                            <label className="mb-2 fw-bold ms-2">Feedback:</label>
                             <textarea
                                 style={{ resize: "none" }}
                                 className="form-control"

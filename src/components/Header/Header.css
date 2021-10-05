@@ -4,6 +4,7 @@
 
 .header{
     color: #FF3614;
+
 }
 nav a {
     color: black;
@@ -11,10 +12,11 @@ nav a {
     margin: 10px;
     font-size: 18px;
     font-weight: bold;
+    transition: .2s;
+
 }
 
-nav a:hover,
-nav a:active {
-    font-weight: bold;
-    text-decoration: underline;
+nav a:hover{
+    color: #FF3614;
 }
+

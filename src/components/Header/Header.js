@@ -7,7 +7,7 @@ const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
         color: "#FF3614",
-        textDecoration: "underline",
+        borderBottom: '2px solid red'
     };
     return (
         <Navbar className="nav-style" variant="dark" expand="lg">
@@ -38,7 +38,7 @@ const Header = () => {
                             Contact us
                         </NavLink>
                     </Nav>
-                    <NavLink activeStyle={activeStyle} to="/enroll">
+                    <NavLink to="/enroll">
                         <button className="home-button rounded-pill pb-2 mt-0">Enroll now</button>
                     </NavLink>
                 </Navbar.Collapse>

@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div className="container">
             <div>
-                <h1 className="my-4 activity-heading">Our Latest Courses</h1>
+                <h1 className="my-4 activity-heading">Courses We Offer</h1>
             </div>
             <Row xs={1} md={2} lg={4} className="g-4 my-5">
                 {

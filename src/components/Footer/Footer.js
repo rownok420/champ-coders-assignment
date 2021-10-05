@@ -61,7 +61,7 @@ const Footer = () => {
                 <hr />
                 <div className="container pb-3">
                     <h5 className="text-center ">
-                        Copyright &copy; 2021 All rights reserved | This Site Developed by <span className='header'> Md. Rownok Jahan</span>
+                        Copyright &copy; 2021 All rights reserved | This Site Developed by <br/> <span className='header mt-2 d-inline-block'> Md. Rownok Jahan</span>
                     </h5>
                 </div>
             </div>
